@@ -1,0 +1,8 @@
+<?xml version='1.0'?>
+<sdf version='1.6'>
+  <model name='wall'>
+    [links]
+    <static>1</static>
+    <allow_auto_disable>1</allow_auto_disable>
+  </model>
+</sdf>
