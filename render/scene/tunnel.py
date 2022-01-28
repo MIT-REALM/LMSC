@@ -2,7 +2,7 @@ import pickle
 import numpy as np
 from calc_metrics import get_distance_between_agents_and_obs
 
-with open('data/tunnel_new.pkl', 'rb') as f:
+with open('data/tunnel.pkl', 'rb') as f:
     bboxs = pickle.load(f)
 
 obstacles = []
