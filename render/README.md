@@ -14,7 +14,7 @@ To use `gurobipy`, you need to require a license from the official website of [G
 ## Run Simulation
 Run the following command to run the simulation and generate the trajectory for a given environment. `NUM_AGENTS` is the number of agents in the environment. `OUTPUT_PATH` is the path to save the trajectory data. `SCENE` can be either `delivery` or `tunnel`. `SEED` is an integer. Default to 0. 
 ```bash
-python run.py --model_path data/model_default_iter_7000 --vis 1 --num_agents NUM_AGENTS --output OUTPUT_PATH --scene SCENE --seed SEED 
+python run.py --model_path data/model_default_iter_7000 --vis 1 --num_agents NUM_AGENTS --output OUTPUT_PATH --scene SCENE --seed SEED --cbf full
 ```
 
 ## Visualize in Blender
